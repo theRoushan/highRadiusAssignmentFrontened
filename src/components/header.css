@@ -1,0 +1,41 @@
+.main_header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.branding {
+  display: flex;
+  background-color: #193b5a;
+  padding: 10px 20px 40px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-left: 20px;
+}
+
+.left_branding_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.right_branding_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.functional_part {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px 20px 10px;
+}
